@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string-array name="algorithms_list">
+        <item>Sortowanie przez wybieranie</item>
+        <item>Sortowanie bąbelkowe</item>
+    </string-array>
+    <string name="bubble_description">Sortowanie bąbelkowe (ang. bubble sort) – prosta metoda sortowania o złożoności czasowej O(n^2)
+Polega na porównywaniu dwóch kolejnych elementów i zamianie ich kolejności, jeżeli zaburza ona porządek, w jakim się sortuje tablicę[1]. Sortowanie kończy się, gdy podczas kolejnego przejścia nie dokonano żadnej zmiany.</string>
+    <string name="insert_description">Sortowanie przez wybieranie <br />
+Sortowanie przez wybieranie – jedna z prostszych metod sortowania o złożoności O(n^2). Polega na wyszukaniu elementu mającego się znaleźć na żądanej pozycji i zamianie miejscami z tym, który jest tam obecnie. Operacja jest wykonywana dla wszystkich indeksów sortowanej tablicy.
+Algorytm przedstawia się następująco:
+wyszukaj minimalną wartość z tablicy spośród elementów od i do końca tablicy
+zamień wartość minimalną, z elementem na pozycji i
+Gdy zamiast wartości minimalnej wybierana będzie maksymalna, wówczas tablica będzie posortowana od największego do najmniejszego elementu.</string>
+    <string name="sort_button">Posortuj</string>
+    <string name="sort_title">Posortuj ciąg liczbowy</string>
+</resources>
